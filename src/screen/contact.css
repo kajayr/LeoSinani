@@ -1,0 +1,56 @@
+.contact{
+    position: absolute;
+    font-size: 1rem;
+    left:25%;
+    top:70%;
+    color:white;
+
+    animation-name: contact;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes contact{
+    0%{
+        left: 83%;
+        top: 65%;
+        opacity: 0;
+    }
+    100%{
+        left:73%;
+        top:65%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1280px){
+.contact{
+    padding-left:10%;
+}
+}
+
+@media screen and (max-width: 1045px){
+    .contact{
+        padding-left:5%;
+        font-size: .8rem;
+    }
+    }
+    
+    @media screen and (max-width: 700px){
+        .contact{
+            padding-left:0;
+        }
+        }
+
+        @media screen and (max-width: 600px){
+            .contact{
+                padding-right:30%;
+                padding-top: 40%;
+            }
+        }
+
+        @media screen and (max-width: 320px){
+            .contact{
+font-size: .7rem;
+            }
+        }

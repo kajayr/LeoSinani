@@ -1,0 +1,231 @@
+.screen{
+    border: 1px solid black;
+    margin: 0 0 0 2vw;
+    width: 75vw;
+    margin-left: 1%;
+    /* opacity: 0; */
+    height: 70vh;
+
+
+    /* animation-name: screen;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; */
+
+}
+
+@keyframes screen {
+    0%{
+        transform: translateX(70vw);
+        opacity: 0;
+    }
+    5%{
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+/* About Me  */
+.screenAll{
+    position: relative;
+    background-color:green;
+    color:white;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    transition: all 1s;
+    
+}
+.pic{
+    width: 15%;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    opacity: 0;
+
+
+    animation-name: pic;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pic{
+    0%{
+      top:10%;
+      left:70%;
+      opacity: 0.3;
+    }
+    100%{
+        top:25%;
+        left:70%;
+        opacity: 1;
+    } 
+}
+
+.pic2{
+    width: 15%;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: none;
+    opacity: 0;
+
+
+    animation-name: pic2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picHide{
+    100%{
+        display: none;
+    }
+}
+
+@keyframes pic2{
+    0%{
+      top:25%;
+      left:70%;
+      opacity: 1;
+    }
+    100%{
+        top:10%;
+        left:70%;
+        opacity: 1;
+    } 
+}
+
+.p{
+    margin-left: 1%;
+    display: inline-block;
+    position: absolute;
+    max-width: 80vh;
+    transform: translate(-50%,-50%);
+    font-size:1rem;
+
+    animation-name: p;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+@keyframes p {
+    0%{
+        left:30%;
+        top:38%;
+        opacity: .2;
+    }
+    100%{
+        left:30%;
+        top:50%;
+        opacity: 1;
+        
+    }
+}
+
+.p2{
+    margin-left: 1%;
+    display: inline-block;
+    position: absolute;
+    max-width: 80vh;
+    transform: translate(-50%,-50%);
+
+    animation-name: p2;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+@keyframes p2 {
+    0%{
+        left:30%;
+        top:50%;
+        opacity: 1;
+    }
+    100%{
+        left:30%;
+        top:30%;
+        opacity: 1;
+        
+    }
+}
+/* About me */
+
+/* Hard Skills */
+
+.skills{
+    background-color:#4baea0;
+    color:white;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+
+@media screen and (max-width: 1280px){
+.p{
+    font-size: 1rem;
+    padding-left:5%;
+}
+.p2{
+    font-size: 1rem;
+    padding-left:5%;
+}
+}
+
+@media screen and (max-width: 1045px){
+    .p{
+        font-size: .8rem;
+        padding-left:5%;
+    }
+    .p2{
+        font-size: .8rem;
+        padding-left:5%;
+    }
+
+    }
+
+
+    @media screen and (max-width: 1030px){
+        .screen{
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        .p{
+            padding-bottom: 10%;
+            padding-left: 30%;
+            width: 100%;
+            display:block;
+            line-height: 1.7;
+        }
+        .p2{
+            padding-bottom: 10%;
+            padding-left: 30%;
+            max-width: 100%;
+            display:block;
+            line-height: 1.7;
+            font-size: .9rem;
+        }
+
+        .pic{
+            display: none;
+            animation-name: picHide;
+        }
+        .pic2{
+            display: none;
+            animation-name: picHide;
+        }
+    
+        }
+
+        
+        @media screen and (max-width: 370px){
+            .p{
+                line-height: 1.5;
+                font-size: .8rem;
+            }
+            .p2{
+                line-height: 1.5;
+                font-size: .8rem;
+            }
+        }

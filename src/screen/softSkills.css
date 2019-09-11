@@ -1,0 +1,146 @@
+.skill{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+
+    animation-name: skill;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+
+}
+@keyframes skill {
+    0%{
+        /* transform: translateY(0px); */
+        left:35%;
+        top:70%;
+        opacity: 0;
+    }
+    100%{
+        /* transform: translateY(100px); */
+        left:35%;
+        top:53%;
+        opacity: 1;
+        
+    }
+}
+
+.softSkills{
+   display: flex;
+   
+}
+.li-size{
+    font-size: 1.2rem;
+    width: 10vw;
+}
+
+.s1{
+    font-size:1.2rem;
+    margin-left:5%;
+    width: 10vw;
+}
+
+@media screen and (max-width: 1280px){
+    .li-size{
+        font-size: 1rem;
+    }
+    
+    .s1{
+        font-size:1rem;
+    }
+
+    }
+    
+    @media screen and (max-width: 1045px){
+        .li-size{
+            font-size: 0.9rem;
+
+        }
+        
+        .s1{
+            font-size:.9rem;
+        }
+    
+        }
+
+        @media screen and (max-width: 1030px){
+            .skill{
+                padding-left:15%;
+                padding-bottom: 0%;
+                font-size: 0.8rem;
+                
+            }
+            
+            .s1{
+                font-size:.8rem;
+            }
+        
+            }
+
+            
+        @media screen and (max-width: 900px){
+            .skill{
+                padding-left:0%;
+                padding-bottom: 0%;
+                
+            }
+            
+            .s1{
+                font-size:.8rem;
+            }
+            .li-size{
+                width: 15vw;
+                font-size: .8rem;
+            }
+        
+            }
+            @media screen and (max-width: 600px){
+                .skill{
+                    padding-right: 15%;
+                    padding-top: 30%;
+                }
+                .li-size{
+                    width: 20vw;
+                }
+            }
+
+            @media screen and (max-width: 450px){
+                .skill{
+                    padding-right: 15%;
+                    padding-top: 40%;
+                    
+                }
+                
+                .li-size{
+                    width: 22vw;
+                    font-size: .7rem;
+                }
+            }
+            @media screen and (max-width: 420px){
+                .skill{
+                    padding-right: 15%;
+                    padding-top: 60%;
+                    
+                }
+                
+                .li-size{
+                    width: 22vw;
+                    font-size: .7rem;
+                }
+            }
+            
+
+
+            @media screen and (max-width: 360px){
+                .skill{
+                    padding-top: 70%;
+                    
+                }
+            }
+
+            @media screen and (max-width: 320px){
+                .skill{
+                    padding-top: 70%;
+                    
+                }
+            }

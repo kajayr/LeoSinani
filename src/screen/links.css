@@ -1,0 +1,56 @@
+.links{
+    position: absolute;
+    font-size: 1rem;
+    left:25%;
+    top:70%;
+    color:white;
+
+    animation-name: links;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes links{
+    0%{
+        top: 76%;
+        left: 25%;
+        opacity: 0;
+    }
+    100%{
+        top:70%;
+        left:25%;
+        opacity: 1;
+    }
+}
+a{
+    color:white;
+}
+
+
+@media screen and (max-width: 1045px){
+    .links{
+        font-size: .9rem;
+    }
+
+    }
+
+    @media screen and (max-width: 1030px){
+        .links{
+            font-size: 1rem;
+            text-align: center;
+            padding-left: 17%;
+            padding-top: 13%;
+           
+            
+        }
+        span{
+            display: none;
+        }
+    
+        }
+
+        @media screen and (max-width: 600px){
+.links{
+    padding-top: 40%;
+}
+        }

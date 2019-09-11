@@ -1,0 +1,23 @@
+.header{
+    border:1px black solid;
+    width: 90vw;
+    padding: 10px;
+    margin: 1% auto;
+    /* animation-name: head;
+    animation-duration: 1s; */
+}
+
+@keyframes head {
+    0% {
+        transform: translateY(90vh);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.list10{
+    display: block;
+}
+

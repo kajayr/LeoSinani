@@ -1,0 +1,54 @@
+.edu{
+    position: absolute;
+    font-size: 1rem;
+    left:25%;
+    top:70%;
+    color:white;
+
+    animation-name: edu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes edu{
+    0%{
+        top: 70%;
+        left: 25%;
+        opacity: 0;
+    }
+    100%{
+        top:65%;
+        left:25%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1045px){
+    .edu{
+        font-size: .9rem;
+    }
+
+    }
+
+    @media screen and (max-width: 1030px){
+        .edu{
+            padding-left:4%;
+            padding-top:3%;
+        }
+    
+        }
+
+        @media screen and (max-width: 700px){
+            .edu{
+                padding-left: 0%;
+                padding-top:3%;
+            }
+        
+            }
+    
+            @media screen and (max-width: 600px){
+               .edu{
+                padding-top:30%;
+                padding-left: 7%;
+               }
+            }

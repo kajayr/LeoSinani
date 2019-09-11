@@ -1,0 +1,63 @@
+[
+{
+"id": 1,
+"qoute": "Positivity always wins…Always.",
+"img": "http://www.leosinani.com/1.jpg",
+"author":"Gary Vaynerchuk"
+},
+{
+"id": 2,
+"qoute": "Keep looking up… that’s the secret of life.",
+"img": "http://www.leosinani.com/2.jpg",
+"author":"Charlie Brown"
+},
+{
+"id": 3,
+"qoute": "The first step is you have to say that you can.",
+"img": "http://www.leosinani.com/3.jpg",
+"author":"Will Smith"
+},
+ {
+ "id": 4,
+"qoute": "Once you choose hope, anything’s possible.",
+"img": "http://www.leosinani.com/4.jpg",
+ "author":"Christopher Reeve"
+ },
+ {
+"id": 5,
+ "qoute": "You can, you should, and if you’re brave enough to start, you will.",
+ "img": "http://www.leosinani.com/5.jpg",
+"author":"Stephen King"
+ },
+ {
+ "id": 6,
+ "qoute": "The best way to predict the future is to create it.",
+ "img": "http://www.leosinani.com/6.jpg",
+"author":"Abraham Lincoln"
+ },
+{
+  "id": 7,
+ "qoute": "The best is yet to be.",
+ "img": "http://www.leosinani.com/7.jpg",
+   "author":"Robert Browning"
+  },
+{
+ "id": 8,
+   "qoute": "We can change our lives. We can do, have, and be exactly what we wish.",
+   "img": "http://www.leosinani.com/8.jpg",
+  "author":"Tony Robbins"
+  },
+  {
+ "id": 9,
+   "qoute": "A problem is a chance for you to do your best. ",
+   "img": "http://www.leosinani.com/9.jpg",
+   "author":"Duke Ellington"
+   },
+  {
+   "id": 10,
+   "qoute": "The most important thing is to look ahead. The past is your anchor.",
+   "img": "http://www.leosinani.com/10.jpg",
+    "author":"Maxime Lagacé"
+   }
+
+]

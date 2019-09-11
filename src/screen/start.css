@@ -1,0 +1,58 @@
+.start{
+    position: absolute;
+    top:40%;
+    left:50%;
+    
+    transform: translate(-50%,-50%);
+    color:white;
+
+    animation-name:start;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes start {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.welcome{
+    font-size: 2rem;
+
+    animation-name:word;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+@keyframes hideStart{
+    100%{
+        display:none;
+    }
+}
+@keyframes word {
+    0%{
+        letter-spacing: 0rem;
+    }
+    50%{
+        letter-spacing: 1rem;
+        opacity: 0.5;
+    }
+    100%{
+        letter-spacing: 0.5rem;
+        text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 500px){
+.start{
+   display: none;
+   animation-name: hideStart;
+}
+}

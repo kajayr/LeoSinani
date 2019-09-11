@@ -1,0 +1,72 @@
+.side{
+    display: inline-flex;
+    flex-direction: column;
+
+    margin:0;
+    width: 15vw;
+    /* opacity: 0; */
+    
+
+    /* animation-name: side;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; */
+}
+
+.btn{
+    background-color: white;
+    border: 2px solid #00a79d;
+    margin-right:5px;
+    color:#007065;
+    flex-grow: 1;
+    border-radius: 4px;
+    margin-top:1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:1.1rem;
+  
+  background: linear-gradient(to right, #00a79d 50%, white 50%);
+  background-position: right;
+  transition: all .5s ease-out;
+  background-size: 200% 100%;
+   
+  }
+
+  .btn:hover{
+    background-position: left;
+    color:white;
+  }
+
+@keyframes side {
+    0%{
+        transform: translateX(90vw);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .side{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+  
+    }
+
+    @media screen and (max-width: 377px){
+        .btn{
+            font-size: .9rem;
+        }
+      
+        }
+
+        @media screen and (max-width: 321px){
+            .btn{
+                font-size: .8rem;
+            }
+          
+            }
+    
